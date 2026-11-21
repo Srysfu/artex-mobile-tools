@@ -1,0 +1,23 @@
+{
+ "version": 1,
+ "updated": "2026-11-21",
+ "note": "skill 包是 zip，顶层目录名 = skill 名，内含 SKILL.md（YAML frontmatter 的 description 决定 AI 何时加载）。",
+ "skills": [
+  {
+   "name": "network-offensive",
+   "version": "1.0.0",
+   "description": "网络渗透与资产测绘工具箱。需要枚举子域、扫端口、探存活、找目录、破参数、扫漏洞模板、搭隧道、做内网穿透时使用。覆盖 subfinder/httpx/naabu/nuclei/ffuf/gobuster/feroxbuster/dnsx/tlsx/asnmap/alterx/shuffledns/puredns/cdncheck/cloudlist/uncover/gau/katana/dalfox/interactsh/afrog/afrog 等。",
+   "size": 4663,
+   "sha256": "481e88015985949c7cbf44117c92e3010540c057a56abc1634bd20a3f5a7ffcd",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/skill-network-offensive.zip"
+  },
+  {
+   "name": "tunnel-pivot",
+   "version": "1.0.0",
+   "description": "内网穿透与隧道搭建。需要把外部流量导进内网、把内网服务暴露出来、建立 SOCKS 代理、做多层 pivot 时使用。覆盖 chisel/gost/ligolo-ng/frp/nps 五种方案的选择与配置。",
+   "size": 3495,
+   "sha256": "e7a67249c82adc23a175583062062746ff712ec81a0cec2335dc5b28f07743bf",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/skill-tunnel-pivot.zip"
+  }
+ ]
+}

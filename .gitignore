@@ -1,8 +1,8 @@
-# 二进制放 Release，不进仓库历史。
-# cloudlist 152MB、nuclei 126MB 都超过 GitHub 单文件 100MB 限制，
-# 而且克隆时拉下来 888MB 毫无意义。
+# 二进制与 skill 包放 Release，不进仓库历史。
+# cloudlist 152MB、nuclei 126MB 超过 GitHub 单文件 100MB 限制，
+# 而且克隆时拉下来 900MB 毫无意义。
 bin/
+skill-*.zip
 
-# 系统垃圾
 .DS_Store
 Thumbs.db
