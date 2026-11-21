@@ -1,0 +1,250 @@
+{
+ "version": 1,
+ "updated": "2026-11-21",
+ "note": "AArch64 静态 ELF，直接放 PATH 可执行。sha256 用于下载后完整性校验。",
+ "tools": [
+  {
+   "name": "afrog",
+   "version": "3.5.11",
+   "description": "PoC 框架",
+   "category": "scan",
+   "size": 86180000,
+   "sha256": "fdd7f017339f9dfe3522c65157dd3b19a8c4fd769f407ff61f701408c6a67647",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/afrog"
+  },
+  {
+   "name": "alterx",
+   "version": "0.1.0",
+   "description": "子域变形",
+   "category": "recon",
+   "size": 19202232,
+   "sha256": "2f5089571b847dc1d507e1e992ee9f29b2b7a4c7eff57a288fd4c1777b0280db",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/alterx"
+  },
+  {
+   "name": "asnmap",
+   "version": "1.2.0",
+   "description": "ASN → CIDR",
+   "category": "recon",
+   "size": 24051874,
+   "sha256": "3d5d48ba37d1e91d117b27bf1b5375c5539bb56f96f635a4965e4d2881014fdc",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/asnmap"
+  },
+  {
+   "name": "cdncheck",
+   "version": "1.4.0",
+   "description": "CDN 判定",
+   "category": "recon",
+   "size": 22479010,
+   "sha256": "b07c25211e1159c55fac07793951a658b4859cbe00585a5cc3a83f6649bedce9",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/cdncheck"
+  },
+  {
+   "name": "cloudlist",
+   "version": "1.5.1",
+   "description": "云资产枚举",
+   "category": "recon",
+   "size": 160366754,
+   "sha256": "43f10508f285883b6509ff3fdb1bb28472a0b9b4e30c170c96c621638f3bc704",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/cloudlist"
+  },
+  {
+   "name": "dalfox",
+   "version": "3.3.0",
+   "description": "XSS 扫描",
+   "category": "scan",
+   "size": 13835344,
+   "sha256": "ae1af450bf86c9c477568291d92c6d2872a6adaf927aeb1161e598c1e3191752",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/dalfox"
+  },
+  {
+   "name": "dnsx",
+   "version": "1.3.1",
+   "description": "DNS 解析 / 爆破",
+   "category": "probe",
+   "size": 27066552,
+   "sha256": "bdeb1329494b124c35076196811b33df54c7aa95838ba5165bc3921899fa1d6a",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/dnsx"
+  },
+  {
+   "name": "ffuf",
+   "version": "2.3.0",
+   "description": "通用 fuzz",
+   "category": "discover",
+   "size": 9896096,
+   "sha256": "1bbed6c9768962f3ce58068e2a6b685d411e16ccc1bf7168f9dc371705b5c7f3",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/ffuf"
+  },
+  {
+   "name": "frp-frpc",
+   "version": "0.72.0",
+   "description": "frp 客户端",
+   "category": "tunnel",
+   "size": 15532194,
+   "sha256": "b92f35651f25c45a414542d72150474688b6320af03192febcb418e0b4cf2644",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/frp-frpc"
+  },
+  {
+   "name": "frp-frps",
+   "version": "0.72.0",
+   "description": "frp 服务端",
+   "category": "tunnel",
+   "size": 19071138,
+   "sha256": "07d0a010dc60ba759d857365307a89dce1df215c5cdddee92ce355140461bf18",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/frp-frps"
+  },
+  {
+   "name": "gau",
+   "version": "2.2.4",
+   "description": "被动 URL 收集",
+   "category": "recon",
+   "size": 8323224,
+   "sha256": "b6c7880b094696b322bb8df1857ad60c5e2109ce721362542921dfc8a8706838",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/gau"
+  },
+  {
+   "name": "gitleaks",
+   "version": "8.30.1",
+   "description": "密钥泄漏扫描",
+   "category": "scan",
+   "size": 20775096,
+   "sha256": "00e91bbe655bd7c47753e8cfe61cb76ea1a5d7e7702fe161ee40102b46b3823b",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/gitleaks"
+  },
+  {
+   "name": "gobuster",
+   "version": "3.8.2",
+   "description": "目录 / DNS 爆破",
+   "category": "discover",
+   "size": 9044152,
+   "sha256": "198fc8f645bfac0b4101d27e9d98c23e617257d97e0a7025aeaaef321ca8626d",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/gobuster"
+  },
+  {
+   "name": "gost",
+   "version": "3.3.3",
+   "description": "多功能代理",
+   "category": "tunnel",
+   "size": 45547680,
+   "sha256": "54e51ce27ade96e6908d4b5e013bee07721f8a2c5fb31c8a14c038162f17d69c",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/gost"
+  },
+  {
+   "name": "httpx",
+   "version": "1.12.0",
+   "description": "批量 HTTP 探活 + 指纹",
+   "category": "probe",
+   "size": 51970210,
+   "sha256": "28dec1033bf23c29bd2b3b0c65589f01efc8d726f3eb056ef5ce6bc19566ef7c",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/httpx"
+  },
+  {
+   "name": "interactsh-client",
+   "version": "1.4.1",
+   "description": "OOB 回连",
+   "category": "scan",
+   "size": 25231522,
+   "sha256": "27d30ccc55e81fd02520b4c3c972ba2bce195a797312acdbd7c7acb8b4b144a3",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/interactsh-client"
+  },
+  {
+   "name": "katana",
+   "version": "1.8.0",
+   "description": "Web 爬虫",
+   "category": "discover",
+   "size": 65208482,
+   "sha256": "d1cad5684a2561ede5d79844cbe5fc18ab783742c215df7c53a89baddd5800c7",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/katana"
+  },
+  {
+   "name": "ligolo-agent",
+   "version": "0.9.2",
+   "description": "ligolo 内网 agent",
+   "category": "tunnel",
+   "size": 6750392,
+   "sha256": "14c704facda7d42b0cec3dc5c448aa01fb253e038473a2e3bce69300fa85345f",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/ligolo-agent"
+  },
+  {
+   "name": "ligolo-proxy",
+   "version": "0.9.2",
+   "description": "ligolo 攻击侧 proxy",
+   "category": "tunnel",
+   "size": 20054200,
+   "sha256": "56cf48d38cb245bcc69b77a26441512428ac3a6f8fbe6e6fbeba81ae10537703",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/ligolo-proxy"
+  },
+  {
+   "name": "notify",
+   "version": "1.0.7",
+   "description": "外带通知",
+   "category": "util",
+   "size": 17629184,
+   "sha256": "47bd35c235d8ce1b5ee9a78933063735154ea26799a0746fc4f6aae6f811c4a1",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/notify"
+  },
+  {
+   "name": "npc",
+   "version": "0.26.10",
+   "description": "nps 客户端",
+   "category": "tunnel",
+   "size": 10944512,
+   "sha256": "56aca26443120dc446fdd7b7ed3c7bed322b1b793f3815195a1fa13bfa8b2456",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/npc"
+  },
+  {
+   "name": "nuclei",
+   "version": "3.11.1",
+   "description": "模板化漏洞扫描",
+   "category": "scan",
+   "size": 131858594,
+   "sha256": "f27098e0be0cc370af52274611608ad61896d7f0a024e35b136327d39e725477",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/nuclei"
+  },
+  {
+   "name": "puredns",
+   "version": "2.1.1",
+   "description": "子域爆破 + 校验",
+   "category": "recon",
+   "size": 7405568,
+   "sha256": "69b781e629504bab46ea1db1b1f4068507e80178ba468e0ed23c7a80db969cc7",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/puredns"
+  },
+  {
+   "name": "shuffledns",
+   "version": "1.2.1",
+   "description": "子域爆破",
+   "category": "recon",
+   "size": 25034936,
+   "sha256": "6921ba54480ec66a12014fafcd2a6c08004a4e14729f937ea54675a7bdac8df9",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/shuffledns"
+  },
+  {
+   "name": "subfinder",
+   "version": "2.17.0",
+   "description": "被动子域枚举",
+   "category": "recon",
+   "size": 28770466,
+   "sha256": "e6a8fb863f26315b8ab79a956d79847fd91970045979c374874e0755cabe7588",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/subfinder"
+  },
+  {
+   "name": "tlsx",
+   "version": "1.5.0",
+   "description": "TLS 证书信息",
+   "category": "probe",
+   "size": 30015648,
+   "sha256": "ad34844b308044820c59987b63dde8f82bd9563f459bfda4335169c490258d74",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/tlsx"
+  },
+  {
+   "name": "uncover",
+   "version": "1.2.1",
+   "description": "测绘引擎聚合",
+   "category": "recon",
+   "size": 28901560,
+   "sha256": "68b525e5740c288ff57f1a1fb319ef88c92c8f18d2df4e0701abc10fd8b90239",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/uncover"
+  }
+ ]
+}
