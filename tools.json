@@ -1,7 +1,7 @@
 {
- "version": 1,
+ "version": 2,
  "updated": "2026-11-21",
- "note": "AArch64 静态 ELF，直接放 PATH 可执行。sha256 用于下载后完整性校验。",
+ "note": "AArch64 原生。大多是静态 ELF；gogo 用 /system/bin/linker64（Android 自己的动态链接器），同样可跑。sha256 用于下载后完整性校验。",
  "tools": [
   {
    "name": "afrog",
@@ -10,7 +10,7 @@
    "category": "scan",
    "size": 86180000,
    "sha256": "fdd7f017339f9dfe3522c65157dd3b19a8c4fd769f407ff61f701408c6a67647",
-   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/afrog"
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/afrog"
   },
   {
    "name": "alterx",
@@ -19,7 +19,7 @@
    "category": "recon",
    "size": 19202232,
    "sha256": "2f5089571b847dc1d507e1e992ee9f29b2b7a4c7eff57a288fd4c1777b0280db",
-   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/alterx"
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/alterx"
   },
   {
    "name": "asnmap",
@@ -28,7 +28,7 @@
    "category": "recon",
    "size": 24051874,
    "sha256": "3d5d48ba37d1e91d117b27bf1b5375c5539bb56f96f635a4965e4d2881014fdc",
-   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/asnmap"
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/asnmap"
   },
   {
    "name": "cdncheck",
@@ -37,7 +37,16 @@
    "category": "recon",
    "size": 22479010,
    "sha256": "b07c25211e1159c55fac07793951a658b4859cbe00585a5cc3a83f6649bedce9",
-   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/cdncheck"
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/cdncheck"
+  },
+  {
+   "name": "chisel",
+   "version": "?",
+   "description": "HTTP 隧道（TCP/UDP/SOCKS）",
+   "category": "tunnel",
+   "size": 10813600,
+   "sha256": "ac6f32a66c607fcd21ebbb8fb6119e12afe2e53a9828eda7942187d37f20bc5b",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/chisel"
   },
   {
    "name": "cloudlist",
@@ -46,7 +55,7 @@
    "category": "recon",
    "size": 160366754,
    "sha256": "43f10508f285883b6509ff3fdb1bb28472a0b9b4e30c170c96c621638f3bc704",
-   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/cloudlist"
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/cloudlist"
   },
   {
    "name": "dalfox",
@@ -55,7 +64,7 @@
    "category": "scan",
    "size": 13835344,
    "sha256": "ae1af450bf86c9c477568291d92c6d2872a6adaf927aeb1161e598c1e3191752",
-   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/dalfox"
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/dalfox"
   },
   {
    "name": "dnsx",
@@ -64,7 +73,7 @@
    "category": "probe",
    "size": 27066552,
    "sha256": "bdeb1329494b124c35076196811b33df54c7aa95838ba5165bc3921899fa1d6a",
-   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/dnsx"
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/dnsx"
   },
   {
    "name": "ffuf",
@@ -73,7 +82,7 @@
    "category": "discover",
    "size": 9896096,
    "sha256": "1bbed6c9768962f3ce58068e2a6b685d411e16ccc1bf7168f9dc371705b5c7f3",
-   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/ffuf"
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/ffuf"
   },
   {
    "name": "frp-frpc",
@@ -82,7 +91,7 @@
    "category": "tunnel",
    "size": 15532194,
    "sha256": "b92f35651f25c45a414542d72150474688b6320af03192febcb418e0b4cf2644",
-   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/frp-frpc"
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/frp-frpc"
   },
   {
    "name": "frp-frps",
@@ -91,7 +100,16 @@
    "category": "tunnel",
    "size": 19071138,
    "sha256": "07d0a010dc60ba759d857365307a89dce1df215c5cdddee92ce355140461bf18",
-   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/frp-frps"
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/frp-frps"
+  },
+  {
+   "name": "fscan",
+   "version": "?",
+   "description": "综合内网扫描（端口/弱口令/漏洞）",
+   "category": "arsenal",
+   "size": 26673312,
+   "sha256": "9cbbc17521b85a65c228a715f0c5f3921f38fd414911e111e6415268f4e4b58a",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/fscan"
   },
   {
    "name": "gau",
@@ -100,7 +118,7 @@
    "category": "recon",
    "size": 8323224,
    "sha256": "b6c7880b094696b322bb8df1857ad60c5e2109ce721362542921dfc8a8706838",
-   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/gau"
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/gau"
   },
   {
    "name": "gitleaks",
@@ -109,7 +127,7 @@
    "category": "scan",
    "size": 20775096,
    "sha256": "00e91bbe655bd7c47753e8cfe61cb76ea1a5d7e7702fe161ee40102b46b3823b",
-   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/gitleaks"
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/gitleaks"
   },
   {
    "name": "gobuster",
@@ -118,7 +136,16 @@
    "category": "discover",
    "size": 9044152,
    "sha256": "198fc8f645bfac0b4101d27e9d98c23e617257d97e0a7025aeaaef321ca8626d",
-   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/gobuster"
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/gobuster"
+  },
+  {
+   "name": "gogo",
+   "version": "?",
+   "description": "内网资产收集与漏洞扫描",
+   "category": "arsenal",
+   "size": 21627174,
+   "sha256": "0a6e67e3be9566a020f2b32b329d1011fb61bdf43c194b8c3792154ec05bef03",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/gogo"
   },
   {
    "name": "gost",
@@ -127,7 +154,7 @@
    "category": "tunnel",
    "size": 45547680,
    "sha256": "54e51ce27ade96e6908d4b5e013bee07721f8a2c5fb31c8a14c038162f17d69c",
-   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/gost"
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/gost"
   },
   {
    "name": "httpx",
@@ -136,7 +163,7 @@
    "category": "probe",
    "size": 51970210,
    "sha256": "28dec1033bf23c29bd2b3b0c65589f01efc8d726f3eb056ef5ce6bc19566ef7c",
-   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/httpx"
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/httpx"
   },
   {
    "name": "interactsh-client",
@@ -145,7 +172,7 @@
    "category": "scan",
    "size": 25231522,
    "sha256": "27d30ccc55e81fd02520b4c3c972ba2bce195a797312acdbd7c7acb8b4b144a3",
-   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/interactsh-client"
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/interactsh-client"
   },
   {
    "name": "katana",
@@ -154,7 +181,7 @@
    "category": "discover",
    "size": 65208482,
    "sha256": "d1cad5684a2561ede5d79844cbe5fc18ab783742c215df7c53a89baddd5800c7",
-   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/katana"
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/katana"
   },
   {
    "name": "ligolo-agent",
@@ -163,7 +190,7 @@
    "category": "tunnel",
    "size": 6750392,
    "sha256": "14c704facda7d42b0cec3dc5c448aa01fb253e038473a2e3bce69300fa85345f",
-   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/ligolo-agent"
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/ligolo-agent"
   },
   {
    "name": "ligolo-proxy",
@@ -172,7 +199,16 @@
    "category": "tunnel",
    "size": 20054200,
    "sha256": "56cf48d38cb245bcc69b77a26441512428ac3a6f8fbe6e6fbeba81ae10537703",
-   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/ligolo-proxy"
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/ligolo-proxy"
+  },
+  {
+   "name": "naabu",
+   "version": "?",
+   "description": "快速端口扫描",
+   "category": "probe",
+   "size": 30998688,
+   "sha256": "2d122395210ad4effe843a6219bfaf4945ef51670d10d48264f964704f744636",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/naabu"
   },
   {
    "name": "notify",
@@ -181,7 +217,7 @@
    "category": "util",
    "size": 17629184,
    "sha256": "47bd35c235d8ce1b5ee9a78933063735154ea26799a0746fc4f6aae6f811c4a1",
-   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/notify"
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/notify"
   },
   {
    "name": "npc",
@@ -190,7 +226,7 @@
    "category": "tunnel",
    "size": 10944512,
    "sha256": "56aca26443120dc446fdd7b7ed3c7bed322b1b793f3815195a1fa13bfa8b2456",
-   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/npc"
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/npc"
   },
   {
    "name": "nuclei",
@@ -199,7 +235,7 @@
    "category": "scan",
    "size": 131858594,
    "sha256": "f27098e0be0cc370af52274611608ad61896d7f0a024e35b136327d39e725477",
-   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/nuclei"
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/nuclei"
   },
   {
    "name": "puredns",
@@ -208,7 +244,7 @@
    "category": "recon",
    "size": 7405568,
    "sha256": "69b781e629504bab46ea1db1b1f4068507e80178ba468e0ed23c7a80db969cc7",
-   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/puredns"
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/puredns"
   },
   {
    "name": "shuffledns",
@@ -217,7 +253,7 @@
    "category": "recon",
    "size": 25034936,
    "sha256": "6921ba54480ec66a12014fafcd2a6c08004a4e14729f937ea54675a7bdac8df9",
-   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/shuffledns"
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/shuffledns"
   },
   {
    "name": "subfinder",
@@ -226,7 +262,16 @@
    "category": "recon",
    "size": 28770466,
    "sha256": "e6a8fb863f26315b8ab79a956d79847fd91970045979c374874e0755cabe7588",
-   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/subfinder"
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/subfinder"
+  },
+  {
+   "name": "suo5",
+   "version": "?",
+   "description": "经 webshell 建 SOCKS5 隧道",
+   "category": "tunnel",
+   "size": 11141280,
+   "sha256": "fe442047c9e8169252cd6d09637adaeab77532b74ced79a7a0b76eeff8f7e5d1",
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/suo5"
   },
   {
    "name": "tlsx",
@@ -235,7 +280,7 @@
    "category": "probe",
    "size": 30015648,
    "sha256": "ad34844b308044820c59987b63dde8f82bd9563f459bfda4335169c490258d74",
-   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/tlsx"
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/tlsx"
   },
   {
    "name": "uncover",
@@ -244,7 +289,7 @@
    "category": "recon",
    "size": 28901560,
    "sha256": "68b525e5740c288ff57f1a1fb319ef88c92c8f18d2df4e0701abc10fd8b90239",
-   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v1/uncover"
+   "url": "https://github.com/Srysfu/artex-mobile-tools/releases/download/tools-v2/uncover"
   }
  ]
 }
